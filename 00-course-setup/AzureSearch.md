@@ -12,7 +12,7 @@ Before you begin, ensure you have the following:
 
 1. Sign in to the [Azure portal](https://portal.azure.com/?wt.mc_id=studentamb_258691).
 2. In the left-hand navigation pane, click on **Create a resource**.
-3. In the search box, type "Azure Cognitive Search" and select **Azure Cognitive Search** from the list of results.
+3. In the search box, type "Azure AI Search" and select **Azure AI Search** from the list of results.
 4. Click the **Create** button.
 5. In the **Basics** tab, provide the following information:
    - **Subscription**: Select your Azure subscription.
@@ -70,7 +70,7 @@ Azure AI Search integrates with various tools to enhance your search capabilitie
 
 ### Using Python SDK
 
-1. Install the Azure Cognitive Search client library for Python:
+1. Install the Azure AI Search client library for Python:
    ```bash
    pip install azure-search-documents
    ```
@@ -99,7 +99,7 @@ Azure AI Search integrates with various tools to enhance your search capabilitie
 
    documents = [
        {"id": "1", "content": "Hello world"},
-       {"id": "2", "content": "Azure Cognitive Search"}
+       {"id": "2", "content": "Azure AI Search"}
    ]
 
    search_client.upload_documents(documents)
@@ -107,12 +107,12 @@ Azure AI Search integrates with various tools to enhance your search capabilitie
 
 For more detailed information, refer to the following documentation:
 
-- [Create an Azure Cognitive Search service](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal?wt.mc_id=studentamb_258691)
-- [Get started with Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/search-get-started-portal?wt.mc_id=studentamb_258691)
+- [Create an Azure AI Search service](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal?wt.mc_id=studentamb_258691)
+- [Get started with Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-get-started-portal?wt.mc_id=studentamb_258691)
 - [Azure AI Search Tools](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/azure-ai-search?tabs=azurecli%2Cpython&pivots=code-examples?wt.mc_id=studentamb_258691)
 
 ## Conclusion
 
 You have successfully set up Azure AI Search using the Azure portal and integrated tools. You can now explore more advanced features and capabilities of Azure AI Search to enhance your search solutions.
 
-For further assistance, visit the [Azure Cognitive Search documentation](https://learn.microsoft.com/en-us/azure/search/?wt.mc_id=studentamb_258691).
+For further assistance, visit the [Azure AI Search documentation](https://learn.microsoft.com/en-us/azure/search/?wt.mc_id=studentamb_258691).
